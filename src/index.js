@@ -7,5 +7,7 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-var greeting = require('./Greeting');
-module.exports = greeting;
+var deck = require('./Deck');
+module.exports = {
+    Deck: deck
+};
