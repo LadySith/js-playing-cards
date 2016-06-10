@@ -7,6 +7,7 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
+"use strict";
 class Greeting {
 
     constructor(name) {
@@ -19,4 +20,4 @@ class Greeting {
 
 }
 
-export default Greeting;
+module.exports  = Greeting;

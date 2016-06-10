@@ -7,4 +7,5 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-export Greeting from './Greeting.js';
+var greeting = require('./Greeting');
+module.exports = greeting;
