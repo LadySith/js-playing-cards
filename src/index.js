@@ -8,6 +8,9 @@
  */
 
 var deck = require('./Deck');
+var hand = require('./Hand');
+
 module.exports = {
-    Deck: deck
+    Deck: deck,
+    Hand: hand
 };
