@@ -1,12 +1,12 @@
 {
-  "private": true,
+  "private": false,
   "name": "js-playing-cards",
   "version": "0.0.0",
   "description": "A JS library for creating a standard deck of playing cards",
   "repository": "daryllukas/js-playing-cards",
   "author": "Daryl Lukas",
   "license": "MIT",
-  "keywords": [],
+  "keywords": ["playing cards"],
   "main": "index.js",
   "jsnext:main": "index.es6.js",
   "babel": {
