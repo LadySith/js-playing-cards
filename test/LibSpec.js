@@ -74,4 +74,19 @@ describe('Hand', () => {
         });
     });
 
+    describe('hand.getCardIndex()', () => {
+       it('should return the index (2) of 4 of Clubs from the hand', () => {
+           const deck = new Deck();
+           const card1 = deck.deal();
+           const card2 = deck.deal();
+           const card3 = deck.deal();
+           const hand = new Hand();
+           hand.addCard(card1);
+           hand.addCard(card2);
+           hand.addCard(card3);
+           const index = hand.getCardIndex(card3);
+           expect(index).to.be.equal(2);
+       });
+    });
+
 });

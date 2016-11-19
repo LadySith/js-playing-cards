@@ -18,11 +18,11 @@ class Hand {
         this.hand.push(card);
     }
 
-    getCard(card) {
+    getCardIndex(card) {
         let index = this.hand.indexOf(card);
 
         if(index > -1) {
-            return this.hand[index];
+            return index;
         } else {
             throw 'No such card in hand';
         }
