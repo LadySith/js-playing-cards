@@ -3,7 +3,7 @@
 [![NPM version](http://img.shields.io/npm/v/js-playing-cards.svg?style=flat-square)](https://www.npmjs.com/package/js-playing-cards)
 [![NPM downloads](http://img.shields.io/npm/dm/js-playing-cards.svg?style=flat-square)](https://www.npmjs.com/package/js-playing-cards)
 [![Build Status](http://img.shields.io/travis/daryllukas/js-playing-cards/master.svg?style=flat-square)](https://travis-ci.org/daryllukas/js-playing-cards)
-[![Coverage Status](https://img.shields.io/coveralls/daryllukas/js-playing-cards.svg?style=flat-square)](https://coveralls.io/daryllukas/js-playing-cards)
+[![Coverage Status](https://coveralls.io/repos/github/daryllukas/js-playing-cards/badge.svg)](https://coveralls.io/github/daryllukas/js-playing-cards)
 [![Dependency Status](http://img.shields.io/david/daryllukas/js-playing-cards.svg?style=flat-square)](https://david-dm.org/daryllukas/js-playing-cards)
 
 > A JS library for creating a standard deck of playing cards
