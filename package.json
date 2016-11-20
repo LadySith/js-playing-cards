@@ -6,7 +6,9 @@
   "repository": "daryllukas/js-playing-cards",
   "author": "Daryl Lukas",
   "license": "MIT",
-  "keywords": ["playing cards"],
+  "keywords": [
+    "playing cards"
+  ],
   "main": "index.js",
   "jsnext:main": "index.es6.js",
   "babel": {
