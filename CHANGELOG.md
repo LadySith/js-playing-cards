@@ -6,9 +6,11 @@ All notable changes to this project will be documented in this file.
 
 - ...
 
-### [v1.0.0] - 2016-01-01
+### v1.0.0 - 2016-11-19
+#### Added
+- Deck, Card and Hand classes
+#### Fixed
+- [Node 4 ECMAScript 6 class export bug]
 
-- ...
-
-[unreleased]: https://github.com/daryllukas/js-playing-cards/compare/v1.0.0...HEAD
-[v0.0.1]: https://github.com/daryllukas/js-playing-cards/compare/v0.0.0...v1.0.0
+[unreleased]: https://github.com/daryllukas/js-playing-cards/compare/master...HEAD
+[Node 4 ECMAScript 6 class export bug]: https://github.com/daryllukas/js-playing-cards/commit/1aebdd5680ed66a810580bd53a33ee758cecf652
