@@ -21,11 +21,15 @@ describe('Deck', () => {
     });
 
     describe('deck.shuffle()', () => {
-       it('should return a Card, NOT 2 of Clubs', () => {
-           var deck = new Deck();
-           deck.shuffle();
-           var card = deck.deal();
-           expect(card.toString()).not.to.be.equal('2 of Clubs');
+       it('should return a shuffled deck not equal to an un-shuffled one', () => {
+           var unshuffled = new Deck();
+           var shuffled = new Deck();
+           shuffled.shuffle();
+           var isEqual = shuffled.deck.length == unshuffled.deck.length && shuffled.deck.every(function (element, index) {
+                   return JSON.stringify(element) === JSON.stringify(unshuffled.deck[index]);
+               });
+           // var card = deck.deal();
+           expect(isEqual).to.be.equal(false);
        });
     });
 });
